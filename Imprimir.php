@@ -101,7 +101,7 @@ Casilla, Fecha, hora, persona, Empresa, equipo,  lectura,Total,Marca,Serie, sali
         <div class="C">CC: <input type="number"  name="Cedula" style="font-size: 25px" size="5" maxlength="10" readonly value="<?= $cliente->Cedula ?>">
         
         <p style="font-size: 25px">
-        <div class="A">ARL: <input type="text" name="ARL" style="font-size: 25px" size="8" maxlength="10" value="<?= $cliente->ARL ?>">
+        <div class="A">ARL: <input type="text" name="ARL" style="font-size: 25px" size="25" maxlength="10" value="<?= $cliente->ARL ?>">
         
         <div class="R">  RH: <input type="text"  name="RH" id="RH" style="font-size: 25px" size="1" maxlength="10" value="<?= $cliente->RH ?>"></div>
         
